@@ -1,0 +1,19 @@
+.todo-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-footer button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.span{
+  font-size: 105%;
+  
+}

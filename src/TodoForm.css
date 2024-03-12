@@ -1,0 +1,24 @@
+.forrm {
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+
+.forrm input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.forrm button {
+    padding: 9px 15px;
+    margin: 1px;
+
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}

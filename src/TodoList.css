@@ -1,0 +1,35 @@
+.todoo {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    /* padding: 4px;
+    margin: 2px 0px 0px 0px; */
+  }
+  
+  .todoo label {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .todoo label input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todoo label input[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  .todoo .buttonn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
